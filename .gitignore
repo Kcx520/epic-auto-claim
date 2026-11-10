@@ -1,0 +1,16 @@
+# 依赖
+node_modules/
+
+# 浏览器自动化产生的运行时数据（会话、缓存、cookie，含隐私信息）
+browser-profile/
+screenshots/
+logs/
+messages/
+
+# 配置里的敏感值：保留模板，真实配置不入库
+config.local.json
+
+# 系统
+.DS_Store
+Thumbs.db
+*.log

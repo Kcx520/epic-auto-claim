@@ -1,0 +1,21 @@
+{
+  "name": "epic-auto-claim",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Epic Games 每周免费游戏 · 本地自动领取 + 邮件通知",
+  "main": "claim.js",
+  "scripts": {
+    "start": "node claim.js",
+    "login": "node claim.js --login",
+    "list": "node claim.js --list",
+    "debug": "node claim.js --debug",
+    "test-email": "node claim.js --test-email"
+  },
+  "dependencies": {
+    "playwright-core": "^1.49.0",
+    "nodemailer": ">=6.9.0 <11"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

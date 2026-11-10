@@ -1,0 +1,28 @@
+{
+  "locale": "zh-CN",
+  "country": "CN",
+
+  "browser": {
+    "channel": "msedge",
+    "headless": false,
+    "hideWindow": true,
+    "slowMo": 0
+  },
+
+  "autoLoginWhenExpired": true,
+  "loginWaitMinutes": 10,
+  "stepDelayMs": 1500,
+  "keepOpenSeconds": 0,
+
+  "email": {
+    "enabled": false,
+    "smtpHost": "smtp.qq.com",
+    "smtpPort": 465,
+    "secure": true,
+    "user": "你的邮箱@qq.com",
+    "pass": "邮箱授权码",
+    "from": "",
+    "to": "收件邮箱@qq.com",
+    "always": false
+  }
+}
